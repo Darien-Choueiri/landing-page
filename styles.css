@@ -55,6 +55,7 @@ a{
 .sub-text{
     font-size: 16px;
     color: #E5E7EB;
+    margin: 0px;
 }
 .cont-sub-two{
     width: 600px;
@@ -65,7 +66,7 @@ a{
     align-items: center;
 }
 
-button{
+.button-one{
     background-color: #3882F6;
     color: #F9FAF8;
     border: none;
@@ -145,4 +146,42 @@ button{
     font-weight: 800;
     font-size: 20px;
     margin-right: 30px;
+}
+
+.cont-four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-box{
+    background: #3882F6;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 50px 100px 50px 100px;
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.button-two{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    width: 105px;
+    height: 29px;
+}
+
+.blue-box-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.blue-button-header{
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 2px;
 }
